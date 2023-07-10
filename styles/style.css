@@ -5,4 +5,52 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+/* Common styles */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 45px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+/* banner styles */
+
+.banner{
+    background: rgba(229, 84, 115, 0.10);
+    height: 850px;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.banner-heading{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.banner-img>img{
+    margin-top: 50px;
+}
+
 

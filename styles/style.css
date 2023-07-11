@@ -144,3 +144,14 @@
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
 }
+
+
+/* Social Section styles */
+.social-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+

@@ -20,6 +20,22 @@
     cursor: pointer;
 }
 
+.heading{
+    color: #272727;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.heading-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 
 /* banner styles */
 
@@ -53,4 +69,52 @@
     margin-top: 50px;
 }
 
+/* featured styles */
+.our-featured-content{
+    margin-top: 180px;
+}
 
+.flowers{
+    display: flex;
+    margin-top: 40px;
+    gap: 24px;
+}
+
+.flower-1, .flower-2, .flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);    
+    padding: 110px 75px 0;
+}
+.flower-1>img{
+    margin-top: 45px;
+}
+
+.flower-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-2>img{
+    width: 320px;
+}
+
+.flower-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-names{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.flower-name{
+    display: block;
+    width: 100%;
+}
+.flower-name>p{
+    text-decoration: underline;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
